@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  border: 5px solid red;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.header h2,h4{
+  background-color: lightcyan;
+  color: brown;
+}
+
+.feedback-form {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-q{
+  border: 1px solid black;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.feedback-qtext{
+  background-color: green;
+  color: white;
+  align-self: baseline;
+  width: 200px;
+}
+.feedback-scale{
+  background-color: yellow;
+  align-self: center;
+}
+#feedback-submit{
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.loc{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
